@@ -298,6 +298,7 @@ main {
     border-radius: 8px;
     background: #FFF4E7;
     padding: 3vh 18vw;
+    margin: 0 auto;
     margin-left: 9vw;
     margin-right: 9vw;
     margin-bottom: 7vh;
@@ -373,7 +374,7 @@ main {
     .ten-years-badge{
         position: static;
         margin-top: 1vh;
-        width: 97%;
+        width: 97.5%;
     }
 
     /* facts */
@@ -464,7 +465,7 @@ main {
     .ten-years-badge{
         position: static;
         margin-top: 1vh;
-        width: 100%;
+        width: 97.5%;
     }
 
     /* facts */
