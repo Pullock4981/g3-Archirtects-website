@@ -134,6 +134,76 @@ main {
     color: #FF900E;
 }
 
+/* feature section */
+
+.features{
+    display: flex;
+    margin-top: 15vh;
+    gap: 12vw;
+}
+
+.feature-contain > h3{
+    border-left: 0.4vw solid #FF900E;
+    padding-left: 0.8vw;
+    margin-bottom: 0;
+}
+
+.feature-contain >p{
+    margin-bottom: 3vh;
+}
+
+.card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 1vh 2vw;
+    margin-bottom: 1.5vh;
+}
+
+.card > h4{
+    margin: 1vh;
+}
+
+.card >p{
+    margin: 1vh;
+}
+
+.feature-image img{
+    width: 33vw;
+    height: 98vh;
+}
+
+.ten-years-badge{
+    width: 22vw;
+    height: 13vh;
+    padding: 3vh 1vh;
+    border-radius: 8px;
+    background: #FF900E;
+    position: relative;
+    bottom: 10vh;
+    right: 10vw;
+}
+
+.ten-years-badge >h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 6.25vh;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    /* line-height: 70px; */
+}
+
+.ten-years-badge > p{
+    color: #FFF;
+    font-size: 3.2vh;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+
+}
+
 /* facts style */
 
 .facts{
@@ -222,6 +292,9 @@ main {
 /* media query for header */
 /* small device */
 @media screen and (max-width:576px) {
+
+    /* header */
+
     header {
         padding: 5vh 2vw;
     }
@@ -234,9 +307,13 @@ main {
         font-size: 6.25vh;
     }
 
+    /* main */
+
     main {
         margin: 0 auto;
     }
+
+    /* teams */
 
     .teams {
         flex-direction: column-reverse;
@@ -257,6 +334,26 @@ main {
 
     }
 
+    /* features */
+
+    .features{
+        flex-direction: column;
+        align-items: center;
+        padding: 2vh;
+    }
+
+    .feature-image img{
+        width: 100%;
+    }
+
+    .ten-years-badge{
+        position: static;
+        margin-top: 1vh;
+        width: 100%;
+    }
+
+    /* facts */
+
     .facts{
         padding: 0vh 14vw;
     }
@@ -269,6 +366,8 @@ main {
     .facts-images{
         flex-direction: column;
     }
+
+    /* sponsors */
 
     .sponsors-icon{
         align-items: center;
@@ -288,6 +387,9 @@ main {
 /* medium device */
 
 @media screen and (min-width:577px) and (max-width:960px) {
+
+    /* header */
+
     header {
         padding: 5vh 3vw;
     }
@@ -295,6 +397,8 @@ main {
     nav {
         flex-direction: column;
     }
+
+    /* teams */
 
     .teams {
         flex-direction: column-reverse;
@@ -311,6 +415,26 @@ main {
 
     }
 
+    /* features */
+
+    .features{
+        flex-direction: column;
+        align-items: center;
+        padding: 2vh;
+    }
+
+    .feature-image img{
+        width: 100%;
+    }
+
+    .ten-years-badge{
+        position: static;
+        margin-top: 1vh;
+        width: 100%;
+    }
+
+    /* facts */
+
     .facts-text{
         width: 100%;
         text-align: center;
@@ -319,6 +443,8 @@ main {
     .facts-images{
         flex-direction: column;
     }
+
+    /* sponsors */
 
     .sponsors-icon{
         gap: 4vw;
